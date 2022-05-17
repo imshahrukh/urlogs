@@ -3,7 +3,7 @@ import React from "react";
 
 export const ProductCard = () => {
   return (
-    <Link href='/product/124'>
+    <Link href="/product/124">
       <div className="rounded-lg shadow-lg cursor-pointer shadow-gray-300 bg-white p-4 flex flex-col gap-y-4">
         <div className="flex justify-between">
           <div>
