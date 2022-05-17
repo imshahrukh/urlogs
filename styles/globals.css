@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #161D25;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.bg-body {
+  background-color: #07141D;
+  background-color: #fff;
+}
+
+.bg-header {
+  background-color: #212B36;
+}
+.header {
+  padding: 10px 15%;
+}
+.bg-primary {
+  background-color: #4592FF;
+}
+.text-primary {
+  color: #4592FF;
+}
+.border-primary {
+  border-color: #4592FF;
+}
+.bg-image {
+  background-image: url('../public/img/be-eclipse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container-div {
+  padding: 0 10%;
+}
+.body-padding {
+  padding: 100px 15%;
+}
+
+
+.fixed-center {
+  transform: translate(-50%, -50%);
+}
+.banner-image {
+  width: 100%;
+}
+
+.bg-pic-opacity {
+  opacity: 0.15;
+}
+.bg-pic-last {
+  transform: scale(2);
+  /* transform: rotate(180deg); */
+}
+.crusal-gradient {
+  background: rgb(255,255,255);
+  background: linear-gradient(270deg, rgba(255,255,255,0) 0%, #07141D 100%);
+}
+
+.zoom-1 {
+  transform: scaleX(1.15);
+}
+
+.section-margin {
+  margin-top: 250px;
+}
+
+.rotate-90 {
+  transform: rotate(90deg)
+}
