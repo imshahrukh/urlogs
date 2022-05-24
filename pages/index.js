@@ -1,5 +1,6 @@
 import { RoundedProduct } from '../components/RoundedProduct'
 import { ProductCard } from '../components/ProductCard'
+
 export default function Home() {
   return (
     <div className="bg-image">
