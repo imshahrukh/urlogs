@@ -7,7 +7,7 @@ const Login = () => {
   const [show, setShow] = useState(false);
   return (
     <div>
-      <section className="h-[1000px] w-[90%] flex justify-center items-center">
+      <section className="relative h-[1000px] w-[90%] flex justify-center items-center">
         <div className="px-6 text-gray-800 h-[800px]">
           <div className="flex xl:justify-center justify-center items-center flex-wrap h-full ">
             <div className="grow-0   shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0 h-[800px]">

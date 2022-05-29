@@ -7,9 +7,9 @@ import { RiDeleteBin6Fill } from "react-icons/ri";
 import { ProductCard } from "../components/ProductCard";
 const Shopping = () => {
   return (
-    <>
+    <div className="">
       <div className="flex flex-row mt-6 ">
-        <div className=" flex flex-col  justify-center w-[100%] space-x-0 md:flex-row md:w-[90%] md:space-x-10">
+        <div className=" flex flex-col  justify-center w-[100%] space-x-0 md:flex-row md:w-[90%] md:space-x-10 lg:mb-8">
           <div className="cart-card flex flex-col justify-center  px-0 w-[100%] md:w-[90%] md:px-2">
             <div className="  rounded-xl border-2 border-gray-100 border-opacity-15 shadow-md p-3 ">
               <h2 className="font-bold text-2xl py-1">Shopping & payment</h2>
@@ -137,11 +137,11 @@ const Shopping = () => {
 
             <div className="mt-5">
               <h2 className="font-bold text-3xl">Review Items and shipping</h2>
-              <div className="mt-10 mb-52 border-2 border-gray-400 border-opacity-25 rounded-lg bg-gray-100 bg-opacity-15 px-2 py-2">
+              <div className="mb-52 border-2 border-gray-400 w-[100%] mt-16 border-opacity-25 rounded-lg bg-gray-100 bg-opacity-15 px-2 py-2">
                 {[1, 3, 4].map((El, key) => (
                   <section
                     key={key}
-                    className="section h-[120px] shadow-lg flex px-6 justify-between items-center mt-2 bg-white"
+                    className="section h-[120px] shadow-lg flex px-6 justify-between items-center mt-2 bg-white "
                   >
                     <AiFillCheckCircle className="text-green-600 text-3xl" />
                     <img src="/img/headphone.png" className="h-[80%]" alt="" />
@@ -188,7 +188,7 @@ const Shopping = () => {
 
           {/*  */}
         </div>
-        <div className=" border-2 h-[0%] shadow-md w-[100%] mx-6 flex justify-center py-12 md:w-[35%] ">
+        <div className=" border-2 h-[0%] shadow-md w-[100%] mx-6 flex justify-center py-12 md:w-[35%] lg:w-[40%] lg:mt-3 ">
           <div className="w-[100%] md:w-[80%]">
             <div className="rounded p-2 space-y-2">
               <div className="p-2 border-2 rounded border-gray-300 border-opacity-20">
@@ -251,7 +251,7 @@ const Shopping = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
