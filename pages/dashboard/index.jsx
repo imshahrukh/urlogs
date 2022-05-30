@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unknown-property */
 import React from "react";
-import { AdminBody } from "./../../components/admin-body";
-import { InformationCard } from "./../../components/information-card";
-import { SideNav } from "./../../components/side-nav";
+import { AdminBody } from "../../components/admin-body";
+import { InformationCard } from "../../components/information-card";
+import { SideNav } from "../../components/side-nav";
 import { MdAudiotrack } from "react-icons/md";
 import { BsCurrencyExchange } from "react-icons/bs";
 import { MdDoneOutline } from "react-icons/md";
@@ -86,7 +86,7 @@ function Index() {
   return (
     <AdminBody>
       <div className=" bg-slate-300 overflow-auto h-full">
-        <div className="flex p-2 space-x-1">
+        <div className="flex p-2 space-x-1 justify-between">
           <InformationCard number={502} title="Books" color={"#9876"}>
             <div className={`rounded-full p-5 bg-green-400`}>
               {/* <MdAudiotrack  className="text-white"></MdAudiotrack> */}
@@ -104,7 +104,7 @@ function Index() {
           <InformationCard
             number={41502}
             currency=" PKR"
-            title="Earning of December"
+            title="Earning "
             color={"#9876"}
           >
             <div className={`rounded-full p-5 bg-purple-400`}>

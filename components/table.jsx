@@ -28,7 +28,7 @@ bg-primaryColor text-white">
 
                             <tbody>
 
-                                {[1, 2, 3, 4,1,3,1,3, 5].map((el, key) => (
+                                {[1, 2, 3, 4,1,32].map((el, key) => (
                                     <tr key={key}>
                                         <td className="text-black text-center">{key}</td>
                                         <th className="border-t-0 px-6 text-black align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
